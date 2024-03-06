@@ -1,0 +1,63 @@
+    @charset 'UTF-8';
+
+    @font-face {
+        font-family: 'android';
+        src: url('fonts/idroid.otf') format('opentype');
+    }
+    main{
+        background-color: white;
+
+        width: 600px;
+        padding: 10px;
+        border-radius: 1%;
+        box-shadow: 5px 5px 15px rgb(136, 109, 93);
+        margin: auto;
+        
+    }
+
+    body{
+        background-image:linear-gradient(to bottom, rgb(219, 239, 188), rgb(226, 250, 219));
+        background-attachment: fixed;
+    }
+    h1{
+        font-family: 'android', sans-serif;
+        text-align: justify;
+        max-height: 1.5em;
+        color: darkslategray;
+        text-indent: 1%;
+        font-size: 1.5em;
+    }
+    h2{
+        font-family: 'android', sans-serif;
+        max-height: 1.5em;
+        background-image: linear-gradient(to right, rgba(16, 16, 16, 0.415), white);
+        color: darkslategray;
+        text-indent: 1%;
+       font-size: 1.2em;
+    }
+    p{
+        text-align: justify;
+        color: darkslategray;
+        text-indent: 2%;
+    }
+    img{
+        margin: auto;
+        text-align: center;
+        width: 590px;
+        height: 250px;
+    }
+    
+    div{
+        text-align: center;
+        
+
+    }
+    div#iframe{
+        margin: auto;
+        width: 608px;
+        background-color: green;
+      
+     
+
+
+    }

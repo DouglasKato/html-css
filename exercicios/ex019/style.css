@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/*
+    EM HTML ID = # EM CSS (So pode um elemento)
+    EM HTML CLASS = . EM CSS (podem varios elementos)
+*/
+
+body{
+    background-color:#53ACDB;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color: #89DB53;
+}
+h1#principal{
+    text-align: center;
+    background-color:#9E3DA1;
+    color: #65A13D;
+}
+h2{
+    color: #afbda7;
+}
+
+.basico{
+    color:#5b6257 ;
+}
+.intermediario{
+    color: black;
+}
+.avancado{
+    color: aliceblue;
+}
+.destaque{
+    background-color:  rgb(213, 218, 203);
+}
