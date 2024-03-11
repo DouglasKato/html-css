@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Tabela com Colgroup</title>
+    <style>
+        table{
+            border-collapse: collapse; 
+            width: 600px;
+        }
+        td, th{
+            border: 2px solid black;
+            padding: 10px;
+        }
+        col.cnome{
+            background-color: blanchedalmond;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprofissao">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <thead>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana Maria</td>
+                <td>M</td>
+                <td>25</td>
+                <td>Costureira</td>
+            </tr>
+            <tr>
+                <td>Joao Paulo</td>
+                <td>H</td>
+                <td>20</td>
+                <td>Pintor</td>
+            </tr>
+            <tr>
+                <td>Joana</td>
+                <td>M</td>
+                <td>45</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Cláudia</td>
+                <td>M</td>
+                <td>18</td>
+                <td>Programadora</td>
+            </tr>
+            <tr>
+                <td> Maria</td>
+                <td>M</td>
+                <td>38</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Mário</td>
+                <td>H</td>
+                <td>27</td>
+                <td>Bancário</td>
+            </tr>
+
+        </tbody>
+        
+    </table>
+
+</body>
+</html>
