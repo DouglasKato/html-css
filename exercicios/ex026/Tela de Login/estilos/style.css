@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    html, body{
+
+    }
+    section#principal{
+        border: 1px solid black;
+        margin-top: 200px;
+        padding: 20px;
+        padding-top: 50px;
+        border-radius: 20px;
+    }
+
+    section h1{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+     p#txt{
+        text-align: justify;
+    }
